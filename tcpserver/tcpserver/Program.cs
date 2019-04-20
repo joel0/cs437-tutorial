@@ -17,6 +17,7 @@ namespace tcpserver
             while (true)
             {
                 Socket client = s.Accept();
+                Console.WriteLine("Client connected");
                 SocketAsyncEventArgs args = new SocketAsyncEventArgs();
                 mClients.Add(client);
                 args.Completed += new EventHandler<SocketAsyncEventArgs>(DataReceived);
