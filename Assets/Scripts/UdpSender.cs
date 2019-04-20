@@ -5,7 +5,7 @@ using System.Net;
 using System.Net.Sockets;
 using UnityEngine;
 
-public class NetSender : MonoBehaviour
+public class UdpSender : MonoBehaviour
 {
     Socket mUdpSend = new Socket(AddressFamily.InterNetwork, SocketType.Dgram, ProtocolType.Udp);
     public string remoteHost = "127.0.0.1";

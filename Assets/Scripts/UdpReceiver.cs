@@ -5,7 +5,7 @@ using System.Net;
 using System.Net.Sockets;
 using UnityEngine;
 
-public class NetReceiver : MonoBehaviour
+public class UdpReceiver : MonoBehaviour
 {
     Socket mUdpSocket = new Socket(AddressFamily.InterNetwork, SocketType.Dgram, ProtocolType.Udp);
     public int ListenPort = 1337;
