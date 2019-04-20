@@ -306,7 +306,7 @@ MonoBehaviour:
   PlayerRemote: {fileID: 1244670043}
   TextConnected: {fileID: 1078961730}
   TextConnectFailed: {fileID: 137598411}
-  RemoteHost: 127.0.0.1
+  RemoteHost: 144.217.87.157
   RemotePort: 1337
 --- !u!4 &922092092
 Transform:
